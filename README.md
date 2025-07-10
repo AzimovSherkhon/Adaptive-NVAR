@@ -9,3 +9,4 @@ Initial experiments on chaotic systems tested under noise-free and synthetically
 
 ## Citation
 If you use this code for your research, please cite:
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15854759.svg)](https://doi.org/10.5281/zenodo.15854759)
