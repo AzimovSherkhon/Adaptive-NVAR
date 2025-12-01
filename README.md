@@ -15,4 +15,4 @@ If you use this code for your research, please cite:
 
 The dataset can be downloaded from Google Drive:
 
-[Download Dataset]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/drive/folders/1jpp847aD7VC_kR5oPfE_tBYsHsCrdGDu?usp=sharing))
+[Download Dataset] (https://drive.google.com/drive/folders/1jpp847aD7VC_kR5oPfE_tBYsHsCrdGDu?usp=sharing)
