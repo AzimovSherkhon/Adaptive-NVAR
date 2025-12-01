@@ -10,3 +10,9 @@ Initial experiments on chaotic systems tested under noise-free and synthetically
 ## Citation
 If you use this code for your research, please cite:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17773046.svg)](https://doi.org/10.5281/zenodo.17773046)
+
+## Dataset for the Lorenz 96
+
+The dataset can be downloaded from Google Drive:
+
+[Download Dataset]([https://drive.google.com/file/d/FILE_ID/view?usp=sharing](https://drive.google.com/drive/folders/1jpp847aD7VC_kR5oPfE_tBYsHsCrdGDu?usp=sharing))
