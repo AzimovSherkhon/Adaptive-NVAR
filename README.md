@@ -2,7 +2,7 @@
 
 <p align="center"><a href="https://arxiv.org/abs/2507.08738"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
 
-## This repository contains the code of the paper "Adaptive Nonlinear Vector Autoregression: Robust Forecasting for Noisy Chaotic Time Series"
+## This repository contains all Jupyter notebooks code of the paper "Adaptive Nonlinear Vector Autoregression: Robust Forecasting for Noisy Chaotic Time Series"
 
 ## Author: Azimov Sherkhon
 
@@ -10,14 +10,104 @@ We propose an adaptive NVAR model that combines delay-embedded linear inputs wit
 The MLP and linear readout are jointly trained using gradient-based optimization, enabling the model to learn data-driven nonlinearities while preserving a simple readout structure.
 Experiments on chaotic systems tested under noise-free and synthetically noisy conditions showed that the Adaptive NVAR outperformed the standard NVAR, Echo State Networks and Hybrid Echo State Networks in predictive accuracy and showed robust forecasting under noisy conditions.
 
-## Citation
-If you use this code for your research, please cite:
+1. System Requirements
+
+Operating systems tested:
+- Windows 10/11 with CUDA GPU
+- Google Colab (GPU runtime)
+
+Programming language:
+- Python = 3.12.12
+
+Dependencies (see requirements.txt):
+
+Hardware requirements:
+- Standard modern desktop computer; GPU required.
+
+
+2. Installation Guide
+
+Option A — Local Installation (Recommended with Anaconda)
+
+1) Clone the repository:
+   git clone https://github.com/AzimovSherkhon/Adaptive-NVAR.git
+   cd Adaptive-NVAR
+
+2) Create and activate a conda environment:
+   conda create -n adaptive-nvar python=3.12.12
+   conda activate adaptive-nvar
+
+3) Install Python dependencies:
+   pip install -r requirements.txt
+
+4) Install and Launch Jupyter Notebook:
+   conda install jupyter
+   jupyter notebook
+
+   Then open any .ipynb file in the repository to begin.
+
+
+Typical installation time: < 5 minutes.
+
+Option B — Run directly in Google Colab (Highly Recommended)
+1) Open the notebook using the Colab link above.
+2) The notebook will open in Google Colab (make sure the runtime type is set to GPU).
+3) No local installation is required; Colab provides the required dependencies.
+
+3. Datasets:
+
+- The Mackey–Glass and Lorenz-63 datasets are already included in the repository.
+- Because the Lorenz-96 (100 variables) dataset is large and cannot be stored directly on GitHub, it is provided separately:
+- Lorenz-96 (100-dimensional) Dataset
+Download from Google Drive:
+[Download Dataset] (https://drive.google.com/drive/folders/1jpp847aD7VC_kR5oPfE_tBYsHsCrdGDu?usp=sharing)
+
+
+4. Demo
+
+How to run the demo:
+1) Open Demo_Prediction_on_test_L63_Adaptive_NVAR_20percent_noise_5runs.ipynb
+2) Run all cells in sequential order
+3) The notebook includes explanations and inline comments to guide the user
+
+Expected output:
+- Multi-step prediction accuracy
+- Forecast trajectories
+
+Expected runtime:
+- 2 minutes on a GPU A100-40GB.
+
+Demo dataset:
+If included:
+- A synthetic dataset for demonstration is provided in this repository (20 % noise case).
+
+
+5. Instructions for Use
+
+Running the software on your own data:
+1) Place your dataset (e.g., .npy) in the Adaptive NVAR directory.
+2) Open the notebook Grid_search_(system_info).ipynb.
+3) Perform a grid search using your own data.
+4) Run Prediction_on_test_(system_info).ipynb with the optimal hyperparameters.
+
+Reproducibility:
+- By running notebooks, you can reproduces all figures, experimental settings, and numerical results from the paper.
+
+6. License
+
+- This repository is licensed under the MIT License.
+- See the LICENSE file for details.
+
+7. Citation
+
+If you use this code in your research, please cite:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17773046.svg)](https://doi.org/10.5281/zenodo.17773046)
 
-## Dataset for the Lorenz 96
+8. Contact
 
-The dataset can be downloaded from Google Drive:
+For questions, bug reports, or contributions: 
+- Open an Issue on GitHub or contact the author directly: sherxonazimov94@pusan.ac.kr
 
-[Download Dataset] (https://drive.google.com/drive/folders/1jpp847aD7VC_kR5oPfE_tBYsHsCrdGDu?usp=sharing)
+
 
 
