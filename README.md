@@ -14,7 +14,7 @@ Experiments on chaotic systems tested under noise-free and synthetically noisy c
 ### **1. System Requirements**
 
 Operating systems tested:
-- Windows 10/11 with CUDA GPU
+- Windows 10/11 and Linux with CUDA GPU
 - Google Colab (GPU runtime)
 
 Programming language:
