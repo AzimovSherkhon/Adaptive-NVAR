@@ -29,7 +29,7 @@ Hardware requirements:
 
 Option A — Local Installation (Recommended with Anaconda)
 
-1) Clone the repository:
+1) Clone the repository: 
    git clone https://github.com/AzimovSherkhon/Adaptive-NVAR.git \
    cd Adaptive-NVAR
 
