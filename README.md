@@ -2,7 +2,8 @@
 
 <p align="center"><a href="https://arxiv.org/abs/2507.08738"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
 
-## This repository contains all Jupyter notebooks code of the paper "Adaptive Nonlinear Vector Autoregression: Robust Forecasting for Noisy Chaotic Time Series"
+This repository contains all Jupyter notebooks code of the paper \
+## "Adaptive Nonlinear Vector Autoregression: Robust Forecasting for Noisy Chaotic Time Series"
 
 **Author: Azimov Sherkhon**
 
