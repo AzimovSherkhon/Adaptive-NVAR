@@ -50,9 +50,9 @@ Option A — Local Installation (Recommended with Anaconda)
 Typical installation time: < 5 minutes.
 
 Option B — Run directly in Google Colab (Highly Recommended)
-1) Open the notebook using the Colab link above.
-2) The notebook will open in Google Colab (make sure the runtime type is set to GPU).
-3) No local installation is required; Colab provides the required dependencies.
+1) Open the notebook in Google Colab.
+2) Set the runtime to GPU (Runtime → Change runtime type → GPU).
+3) No local installation is required — Colab already provides all necessary dependencies.
 
 3. Datasets:
 
