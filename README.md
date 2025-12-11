@@ -30,7 +30,7 @@ Hardware requirements:
 Option A — Local Installation (Recommended with Anaconda)
 
 1) Clone the repository:
-   git clone https://github.com/AzimovSherkhon/Adaptive-NVAR.git
+   git clone https://github.com/AzimovSherkhon/Adaptive-NVAR.git \
    cd Adaptive-NVAR
 
 2) Create and activate a conda environment:
