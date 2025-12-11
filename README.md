@@ -1,5 +1,8 @@
 # Adaptive Nonlinear Vector Autoregression (Adaptive NVAR)
-## This reposity contains the code of the paper "Adaptive Nonlinear Vector Autoregression: Robust Forecasting for Noisy Chaotic Time Series"
+
+<p align="center"><a href="https://arxiv.org/abs/2507.08738"><img src='https://img.shields.io/badge/arXiv-Paper-red?logo=arxiv&logoColor=white' alt='arXiv'></a>
+
+## This repository contains the code of the paper "Adaptive Nonlinear Vector Autoregression: Robust Forecasting for Noisy Chaotic Time Series"
 
 ## Author: Azimov Sherkhon
 
@@ -16,3 +19,5 @@ If you use this code for your research, please cite:
 The dataset can be downloaded from Google Drive:
 
 [Download Dataset] (https://drive.google.com/drive/folders/1jpp847aD7VC_kR5oPfE_tBYsHsCrdGDu?usp=sharing)
+
+
