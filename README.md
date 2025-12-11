@@ -11,7 +11,7 @@ We propose an adaptive NVAR model that combines delay-embedded linear inputs wit
 The MLP and linear readout are jointly trained using gradient-based optimization, enabling the model to learn data-driven nonlinearities while preserving a simple readout structure.
 Experiments on chaotic systems tested under noise-free and synthetically noisy conditions showed that the Adaptive NVAR outperformed the standard NVAR, Echo State Networks and Hybrid Echo State Networks in predictive accuracy and showed robust forecasting under noisy conditions.
 
-### 1. System Requirements
+### **1. System Requirements**
 
 Operating systems tested:
 - Windows 10/11 with CUDA GPU
@@ -26,7 +26,7 @@ Hardware requirements:
 - Standard modern desktop computer; GPU required.
 
 
-### 2. Installation Guide
+### **2. Installation Guide**
 
 Option A — Local Installation (Recommended with Anaconda)
 
