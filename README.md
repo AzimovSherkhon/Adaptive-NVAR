@@ -55,9 +55,9 @@ Option B — Run directly in Google Colab (Highly Recommended)
 2) Set the runtime to GPU (Runtime → Change runtime type → GPU).
 3) No local installation is required — Colab already provides all necessary dependencies.
 
-### **⚠ Recommended GPU Hardware**
+### **⚠ Recommended GPU Hardware** 
 
-Important Note on GPU Requirements:
+Important Note on GPU Requirements: \
 This repository has been tested on NVIDIA A100 (Ampere) and H200 (Hopper) GPUs. Due to differences in floating-point precision, tensor core architecture, and numerical stability, older GPUs such as V100, T4, or other architectures may produce divergent or less accurate results, especially for long-horizon autoregressive predictions or chaotic time series.
 
 To ensure reproducibility and maintain prediction accuracy, we strongly recommend using A100 or H200 GPUs. Other GPUs may still run the code, but results cannot be guaranteed to match those reported in the paper.
