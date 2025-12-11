@@ -58,8 +58,7 @@ Option B — Run directly in Google Colab (Highly Recommended)
 
 - The Mackey–Glass and Lorenz-63 datasets are already included in the repository.
 - Because the Lorenz-96 (100 variables) dataset is large and cannot be stored directly on GitHub, it is provided separately:
-- Lorenz-96 (100-dimensional) Dataset
-Download from Google Drive:
+Download from Google Drive: \
 [Download Dataset] (https://drive.google.com/drive/folders/1jpp847aD7VC_kR5oPfE_tBYsHsCrdGDu?usp=sharing)
 
 
