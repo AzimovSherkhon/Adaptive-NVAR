@@ -26,7 +26,7 @@ Hardware requirements:
 - Standard modern desktop computer; GPU required.
 
 
-2. Installation Guide
+**2. Installation Guide**
 
 Option A — Local Installation (Recommended with Anaconda)
 
