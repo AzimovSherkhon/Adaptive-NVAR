@@ -19,7 +19,7 @@ Operating systems tested:
 Programming language:
 - Python = 3.12.12
 
-Dependencies (see requirements.txt):
+Dependencies (see requirements.txt)
 
 Hardware requirements:
 - Standard modern desktop computer; GPU required.
@@ -29,19 +29,19 @@ Hardware requirements:
 
 Option A — Local Installation (Recommended with Anaconda)
 
-1) Clone the repository: 
+1) Clone the repository: \
    git clone https://github.com/AzimovSherkhon/Adaptive-NVAR.git \
    cd Adaptive-NVAR
 
-2) Create and activate a conda environment:
-   conda create -n adaptive-nvar python=3.12.12
+2) Create and activate a conda environment: \
+   conda create -n adaptive-nvar python=3.12.12 \
    conda activate adaptive-nvar
 
-3) Install Python dependencies:
-   pip install -r requirements.txt
+3) Install Python dependencies: \
+   pip install -r requirements.txt 
 
-4) Install and Launch Jupyter Notebook:
-   conda install jupyter
+4) Install and Launch Jupyter Notebook: \
+   conda install jupyter \
    jupyter notebook
 
    Then open any .ipynb file in the repository to begin.
