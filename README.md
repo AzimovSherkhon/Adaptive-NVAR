@@ -82,7 +82,7 @@ Expected output:
 - Forecast trajectories
 
 Expected runtime:
-- 2 minutes on a GPU A100-40GB.
+- ~2 minutes on a GPU A100-40GB.
 
 Demo dataset:
 - A synthetic dataset for demonstration is provided in this repository (20 % noise case).
