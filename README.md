@@ -26,7 +26,7 @@ Hardware requirements:
 - Standard modern desktop computer; GPU required.
 
 
-**2. Installation Guide**
+### 2. Installation Guide
 
 Option A — Local Installation (Recommended with Anaconda)
 
@@ -55,7 +55,7 @@ Option B — Run directly in Google Colab (Highly Recommended)
 2) Set the runtime to GPU (Runtime → Change runtime type → GPU).
 3) No local installation is required — Colab already provides all necessary dependencies.
 
-3. Datasets:
+### 3. Datasets:
 
 - The Mackey–Glass and Lorenz-63 datasets are already included in the repository.
 - Because the Lorenz-96 (100 variables) dataset is large and cannot be stored directly on GitHub, it is provided separately:
@@ -63,7 +63,7 @@ Download from Google Drive: \
 [Download Dataset] (https://drive.google.com/drive/folders/1jpp847aD7VC_kR5oPfE_tBYsHsCrdGDu?usp=sharing)
 
 
-4. Demo
+### 4. Demo
 
 How to run the demo:
 1) Open Demo_Prediction_on_test_L63_Adaptive_NVAR_20percent_noise_5runs.ipynb
@@ -82,7 +82,7 @@ If included:
 - A synthetic dataset for demonstration is provided in this repository (20 % noise case).
 
 
-5. Instructions for Use
+### 5. Instructions for Use
 
 Running the software on your own data:
 1) Place your dataset (e.g., .npy) in the Adaptive NVAR directory.
@@ -93,17 +93,17 @@ Running the software on your own data:
 Reproducibility:
 - By running notebooks, you can reproduces all figures, experimental settings, and numerical results from the paper.
 
-6. License
+### 6. License
 
 - This repository is licensed under the MIT License.
 - See the LICENSE file for details.
 
-7. Citation
+### 7. Citation
 
 If you use this code in your research, please cite:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17773046.svg)](https://doi.org/10.5281/zenodo.17773046)
 
-8. Contact
+### 8. Contact
 
 For questions, bug reports, or contributions: 
 - Open an Issue on GitHub or contact the author directly: sherxonazimov94@pusan.ac.kr
