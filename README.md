@@ -30,21 +30,26 @@ Hardware requirements:
 
 Option A — Local Installation (Recommended with Anaconda)
 
-1) Clone the repository: \
+1) Clone the repository:
+```
    git clone https://github.com/AzimovSherkhon/Adaptive-NVAR.git \
    cd Adaptive-NVAR
+```
 
-2) Create and activate a conda environment: \
+2) Create and activate a conda environment:
+```
    conda create -n adaptive-nvar python=3.12.12 \
    conda activate adaptive-nvar
-
-3) Install Python dependencies: \
+```
+4) Install Python dependencies:
+```
    pip install -r requirements.txt 
-
-4) Install and Launch Jupyter Notebook: \
+```
+6) Install and Launch Jupyter Notebook:
+```
    conda install jupyter \
    jupyter notebook
-
+```
    Then open any .ipynb file in the repository to begin.
 
 
@@ -53,7 +58,7 @@ Typical installation time: < 5 minutes.
 Option B — Run directly in Google Colab (Highly Recommended)
 1) Open the notebook in Google Colab.
 2) Set the runtime to GPU (Runtime → Change runtime type → GPU).
-3) No local installation is required — Colab already provides all necessary dependencies.
+3) No local installation is required ( as of December 2025) Colab provides all necessary dependencies. In the future it will be necessary to install the requirements by uploading the requirements.txt file to the colab server and running ```!pip install -r requirements.txt ```
 
 ### **⚠ Recommended GPU Hardware** 
 
