@@ -112,7 +112,7 @@ Reproducibility:
 ### **7. Citation**
 
 If you use this code in your research, please cite:
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17773046.svg)](https://doi.org/10.5281/zenodo.17773046)
+[![DOI](https://arxiv.org/abs/2507.08738v2)]
 
 ### **8. Contact**
 
